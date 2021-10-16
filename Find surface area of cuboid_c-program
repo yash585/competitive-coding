@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+ int A,B,C,D;
+ printf("Enter Length of the Coboid:\n");
+ scanf("%d",&A);
+ printf("Enter Breadth of Cuboid:\n");
+ scanf("%d",&B);
+ printf("Enter Height of Cuboid:\n");
+ scanf("%d",&C);
+ D=2*(A*B+A*C+B*C);
+ printf("Surface Area of Cuboid is:%d\n",D);
+}
